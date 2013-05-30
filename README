@@ -1,0 +1,31 @@
+XML Feed Parsing
+================
+	If you have XML feeds and you want to show it in the frontend . This is a simple jquery ajax based function called on document.ready() . And parse XML data , even allow pagination as per your needs . 
+
+
+Min Requirements
+===================
+
+	1. jQuery 1.9.0
+ 
+Functional Req
+===================
+ 
+	1.getFeedData(feedName)
+	// feedName is the feed filename without extension(.xml)
+	// you can even relace this with any URL if you want
+	
+	2. var feedsPerPage = 4; 
+		// constant of how many feeds per page.change it as per your needs
+		
+	2. in XMLFeedParse/data/  some dummy feed files exists. It will help
+
+Changelog
+===================
+
+	30.05.2013
+	- libs updated to: XMLFeedParsing v0.1
+	
+Contact
+===================
+tarun14691@gmail.com

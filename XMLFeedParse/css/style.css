@@ -1,0 +1,100 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #ddd;
+}
+
+#wrapper
+{
+	width:1100px;
+	height: 100%;
+	background-color: #ddd;
+	margin:0px auto;
+}
+.header {
+	width:1100px;
+	background-color: #88A6FF;
+	height: 46px;
+	padding-top: 2%;
+}
+.headTitle{
+	font-size:22px;
+	font-weight:600;
+	color:#fff;
+	margin-top:2%;
+	margin-left:3.5%;
+}
+.subHeader{
+	width: 1100px;
+	background-color: #B2D1FF;
+	height: 20px;
+	padding-top: 0px;
+	margin-top: -1.5%;
+}
+.subHeader ul{
+    list-style: none;
+    margin-left:12%;
+}
+.subHeader li{
+    display: inline;
+    margin-right:20%;
+}
+li a{
+	 text-decoration:none;
+	 color:#1D1919;
+	 font-size:16px;
+	 font-weight:400;
+}
+.section {
+	width:1100px;
+	background-color: #fff;
+	height: 100%;
+	float:left;
+	
+}
+.content {
+	background-color: #fff;
+	float: left;
+	height: 100%;
+	width: 850px;
+	align:center;
+	margin-top:1%;
+	
+}
+.feedItemsDiv{
+	background-color: #eee;
+	width: 100%;
+	border-radius:15px;
+	margin-top:2%;
+	margin-left:15%;
+}
+.feedImg{
+	float:left;
+	width:15%;
+	margin-top:1.2%;
+	margin-left:1%;
+}
+.feedData{
+	width:70%;
+}
+.prevIssueButton{
+	margin-left:58%;
+	font-size:14px;
+	font-weight:bold;
+}
+.nextIssueButton{
+	font-size:14px;
+	font-weight:bold;
+}
+.navImg{
+	width:40%;
+}
+.footer {
+	width:1100px;
+	background-color:#666;
+	height: 25px;
+	float:left;
+
+}
+
